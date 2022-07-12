@@ -3,7 +3,7 @@ import React from 'react'
 import CounterButton from './CounterButton';
 import CounterDisplay from './CounterDisplay';
 
-// Le nom 'count' ira dans le store
+// Le nom 'count' (choix personel), sera la key qui ira dans le store
 import count from './reducers/count.reducer';
 
 import { Provider } from 'react-redux';
